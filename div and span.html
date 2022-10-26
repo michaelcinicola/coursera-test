@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Structure & Content Models</title>
+</head>
+<body>
+    <div>Div is the most common Block-level element. Blocks render to begin on a new line by default.</div>
+    <span>Span is the most common Inline-level element. Spans render to begin on the same line by default.</span>
+    <div>Div 1 = new line</div>
+    <div>Div 2 = new line</div>
+    <span>Span 1 = same line (in-line) BUT the Div above it has a behavior that renders itself on its own line, pushing the span down a line.</span>
+    <div>Div 3 = new line (despite following a span) <span>Span 2 = In-line BECAUSE this span is inside the div before the div is closed. So no pushing the span down a line this time.</span><a href="www.apple.com">Hi</a></div>
+
+    <a>I love <div>gardening<span>!</span></div></a>
+</body>
+</html>
